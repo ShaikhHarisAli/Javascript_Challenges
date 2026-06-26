@@ -16,16 +16,16 @@
 // TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
 
-// const massMark = 78;
-// const heightMark= 1.69;
-// const massJohn = 92;
-// const heightJohn= 1.95;
+const massMark = 78;
+const heightMark= 1.69;
+const massJohn = 92;
+const heightJohn= 1.95;
 
-// const BMIMark = massMark  / (heightMark * heightMark);
-// const BMIJohn = massJohn/(heightJohn * heightJohn);
+const BMIMark = massMark  / (heightMark * heightMark);
+const BMIJohn = massJohn/(heightJohn * heightJohn);
 
-// console.log("BMI MARK ==> ",BMIMark);
-// console.log("BMI JOHN ==> ",BMIJohn);
+console.log("BMI MARK ==> ",BMIMark);
+console.log("BMI JOHN ==> ",BMIJohn);
 
 // CHALLENGE #2
 // Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
@@ -41,12 +41,12 @@
 // Note: Don't round the BMI values. Leave them as they are.
 
 
-// if(BMIMark > BMIJohn){
-//     console.log(`Mark's BMI ${BMIMark} is higher than John's ${BMIJohn}!`);    
-// }
-// else{
-//     console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`); 
-// }
+if(BMIMark > BMIJohn){
+    console.log(`Mark's BMI ${BMIMark} is higher than John's ${BMIJohn}!`);    
+}
+else{
+    console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`); 
+}
 
 
 // CHALLENGE #3
@@ -68,16 +68,16 @@
 
 // TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110.
 
-// const scoreDolphins = (96 + 108+ 89)/3;
-// const scoreKoalas = (88+ 91+ 110)/3;
+const scoreDolphins = (96 + 108+ 89)/3;
+const scoreKoalas = (88+ 91+ 110)/3;
 
-// if (scoreDolphins > scoreKoalas) {
-//     console.log("Dolphins win the trophy");    
-// } else if (scoreDolphins < scoreKoalas){
-//     console.log("Koalas win the trophy");
-// } else{
-//     console.log("Both win the trophy");
-// }
+if (scoreDolphins > scoreKoalas) {
+    console.log("Dolphins win the trophy");    
+} else if (scoreDolphins < scoreKoalas){
+    console.log("Koalas win the trophy");
+} else{
+    console.log("Both win the trophy");
+}
 
 // CHALLENGE #4
 // Steven needs a very simple tip calculator for whenever he goes to eat in a 
